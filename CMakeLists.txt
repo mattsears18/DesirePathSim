@@ -6,7 +6,7 @@ find_package(raylib 4.2 REQUIRED)
 
 configure_file("src/VersionConf.hpp.in" "VersionConf.hpp" @ONLY)
 
-add_executable(${PROJECT_NAME} "src/main.cpp" "src/Bitmap.cpp" "src/Villager.cpp" "src/DesirePaths.cpp" "src/DesirePathSim.cpp" "src/WorldGen.cpp")
+add_executable(${PROJECT_NAME} "src/main.cpp" "src/Bitmap.cpp" "src/Villager.cpp" "src/DesirePaths.cpp" "src/DesirePathSim.cpp" "src/WorldGen.cpp" "src/Raylib.h")
 
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_17)
 

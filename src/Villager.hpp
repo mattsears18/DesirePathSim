@@ -6,7 +6,7 @@
 #include <atomic>
 #include <random>
 
-#include <raylib.h>
+#include "Raylib.h"
 
 #include "WorldMap.hpp"
 #include "UpdateRect.hpp"

@@ -5,7 +5,7 @@
 #include <atomic>
 #include <random>
 
-#include <raylib.h>
+#include "Raylib.h"
 
 #include "Options.hpp"
 #include "Voronoi.hpp"
