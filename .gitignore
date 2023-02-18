@@ -1,3 +1,6 @@
 ﻿/.vs
 /out/build
 /CMakeSettings.json
+/cmake-build-debug
+
+.DS_Store
