@@ -2,6 +2,7 @@
   <dictionary name="mattsears">
     <words>
       <w>raylib</w>
+      <w>worldgen</w>
     </words>
   </dictionary>
 </component>

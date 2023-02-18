@@ -21,13 +21,13 @@ class DesirePathSim final
 public:
    DesirePathSim(const Options& options);
 
-   DesirePathSim(const DesirePathSim&) = default;
-   DesirePathSim(DesirePathSim&&) = default;
+   DesirePathSim(const DesirePathSim&) = delete;
+   DesirePathSim(DesirePathSim&&) = delete;
 
    ~DesirePathSim();
 
-   DesirePathSim& operator=(const DesirePathSim&) = default;
-   DesirePathSim& operator=(DesirePathSim&&) = default;
+   DesirePathSim& operator=(const DesirePathSim&) = delete;
+   DesirePathSim& operator=(DesirePathSim&&) = delete;
 
    void run();
 

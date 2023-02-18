@@ -28,13 +28,13 @@ public:
 public:
    Villager() = default;
 
-   Villager(const Villager&) = default;
-   Villager(Villager&&) noexcept = default;
+   Villager(const Villager&) = delete;
+   Villager(Villager&&) noexcept = delete;
 
    ~Villager() = default;
 
-   Villager& operator=(const Villager&) = default;
-   Villager& operator=(Villager&&) noexcept = default;
+   Villager& operator=(const Villager&) = delete;
+   Villager& operator=(Villager&&) noexcept = delete;
 
    Vector2 m_position = {0.0f, 0.0f};
 

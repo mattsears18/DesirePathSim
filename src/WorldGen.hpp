@@ -20,8 +20,8 @@ public:
 
    ~WorldGen() = default;
 
-   WorldGen& operator=(const WorldGen&) = default;
-   WorldGen& operator=(WorldGen&&) noexcept = default;
+   WorldGen& operator=(const WorldGen&) = delete;
+   WorldGen& operator=(WorldGen&&) noexcept = delete;
 
    void placeStreetsFromVoronoiMap(const VoronoiMap& voronoiMap);
 
